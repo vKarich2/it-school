@@ -204,6 +204,7 @@ body {
 .owner .container .owner-inner .owner-down .owner-down__right {
   width: 580px;
   height: 390px;
+  border-radius: 15px;
 }
 
 .courses {
@@ -251,6 +252,7 @@ body {
   width: 433px;
   height: 311px;
   background-color: #636363;
+  border-radius: 10px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }

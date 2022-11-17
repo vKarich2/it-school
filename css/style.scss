@@ -194,6 +194,7 @@ body{
 				.owner-down__right{
 					width: 580px;
 					height: 390px;
+					border-radius: 15px;
 				}
 			}
 		}
@@ -230,6 +231,7 @@ body{
 					width: 433px;
 					height: 311px;
 					background-color: #636363;
+					border-radius: 10px;
 					transition: 0.3s ease-in-out;
 					&:hover{
 						background-color: #FD7013;
