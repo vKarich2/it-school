@@ -16,7 +16,7 @@ h6{
 }
 
 body{
-	font-family: 'Rufina', serif;
+	font-family: 'Source Sans 3', sans-serif;
 	//font-family: 'Dancing Script', cursive;
 	font-size: 16px;
 	font-weight: 400;
@@ -37,25 +37,27 @@ body{
 		justify-content: space-between;
 
 		.header-logo{
-			width: 85px;
-			height: 85px;
-			margin: 30px 0 60px 0;
+			width: 102px;
+			height: 102px;
+			margin: 30px 0 45px 0;
 
 			&:hover{
 				cursor: pointer;
 			}
 		}
 
-		.header-menu__img{
+		.burger-menu{
 			display: flex;
 			align-items: center;
 			max-width: 50px;
-			opacity: 1;
-			transition: 0.2s ease-in-out;
-
-			&:hover{
+			.header-menu__img {
+				opacity: 1;
+				transition: 0.2s ease-in-out;
+			
+			&:hover {
 				cursor: pointer;
 				opacity: 0.7;
+			}
 			}
 		}
 	}
@@ -103,7 +105,8 @@ body{
 }
 
 .slick-dots{
-	margin: 50px 0 100px 0;
+	padding: 0;
+	margin: 60px 0 100px 0;
 	display: flex;
 	justify-content: center;
 	list-style: none;
@@ -134,4 +137,105 @@ body{
 
 // ***
 
+.rectangle{
+	width: 85px;
+	height: 10px;
+	background: linear-gradient(90deg, #FD7013 42.35%, #EEF20F 100%);
+}
 
+.owner{
+	.container{
+		.owner-inner{
+			.owner-up{
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				.owner-title{
+					margin-right: 20px;
+					font-size: 50px;
+					font-weight: 700;
+				}
+			}
+			.owner-down{
+				margin-top: 60px;
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+
+				.owner-down__left{
+					max-width: 580px;
+
+					.owner-text__up{
+						display: flex;
+						justify-content: center;
+						font-family: 'Dancing Script', cursive;
+						font-weight: 700;
+						text-align: justify;
+					}
+
+					.owner-text__center{
+						margin-top: 20px;
+					}
+
+					.owner-text__down{
+						margin-top: 20px;
+					}
+
+					.sign{
+						margin: 16px 0 65px 0;
+						display: flex;
+						justify-content: flex-end;
+
+						img{
+							max-width: 200px;
+						}
+					}
+				}
+				.owner-down__right{
+					width: 580px;
+					height: 390px;
+				}
+			}
+		}
+	}
+}
+
+.courses{
+	background: linear-gradient(180deg, #EEEEEE 12.29%, #222831 67.07%);
+	.container{
+		.courses-inner{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 160px 0;
+			.courses-title{
+				display: flex;
+				align-items: center;
+				.courses-title__item{
+					margin-right: 20px;
+				}
+				.courses-title__text{
+					font-size: 50px;
+					font-weight: 700;
+				}
+			}
+			.courses-grid{
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 50px;
+				margin-top: 100px;
+
+				.courses-grid__item{
+					width: 433px;
+					height: 311px;
+					background-color: #636363;
+					transition: 0.3s ease-in-out;
+					&:hover{
+						background-color: #FD7013;
+					}
+				}
+			}
+		}
+	}
+}
