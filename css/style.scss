@@ -94,3 +94,44 @@ body{
 	}
 }
 
+
+
+//SLICK
+
+.slick-track{
+	margin-left: 32.5px;
+}
+
+.slick-dots{
+	margin: 50px 0 100px 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	
+
+	button{
+		margin-right: 20px;
+		font-size: 0;
+		width: 15px;
+		height: 15px;
+		border-radius: 200px;
+		border: 0;
+		background-color: #FD7013;
+		opacity: 0.3;
+		transition: 0.2s ease-in-out;
+
+		&:hover{
+			opacity: 1;
+		}
+	}
+}
+
+.slick-active{
+	button{
+		opacity: 1;
+	}
+}
+
+// ***
+
+
