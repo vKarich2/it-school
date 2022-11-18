@@ -262,7 +262,6 @@ body {
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   position: relative;
-  background-color: #EEEEEE;
   opacity: 1;
   text-decoration: none;
 }
