@@ -257,4 +257,167 @@ body {
 }
 .courses .container .courses-inner .courses-grid .courses-grid__item:hover {
   background-color: #FD7013;
+}
+
+.final {
+  background-color: #222831;
+}
+.final .container .final-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.final .container .final-inner .final-inner__up {
+  color: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.final .container .final-inner .final-inner__up .final-up__subtext {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.final .container .final-inner .final-inner__up .final-up__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.final .container .final-inner .final-inner__up .final-up__title .final-up__maintext {
+  margin-left: 20px;
+  font-size: 50px;
+}
+.final .container .final-inner .final-inner__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.final .container .final-inner .final-inner__down img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+.final .container .final-inner .final-inner__down .final-line {
+  width: 75%;
+  height: 1px;
+  background-color: #eee;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+
+.footer {
+  background-color: #222831;
+  font-size: 16px;
+  padding-bottom: 70px;
+}
+.footer .container .footer-inner {
+  padding-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .container .footer-inner .footer-items {
+  width: 100%;
+}
+.footer .container .footer-inner .footer-items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+.footer .container .footer-inner .footer-items ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eee;
+}
+.footer .container .footer-inner .footer-items ul li a {
+  text-decoration: none;
+  color: #eee;
+  margin-bottom: 10px;
+}
+.footer .container .footer-inner .footer-items ul li a:last-child {
+  margin-bottom: 0;
+}
+.footer .container .footer-inner .footer-items ul li .maintext {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.footer .container .footer-inner .footer-items ul li .address {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.footer .container .footer-inner .footer-items ul li .address:last-child {
+  margin-bottom: 0;
+}
+.footer .container .footer-inner .footer-items ul li .contacts {
+  opacity: 0.3;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.footer .container .footer-inner .footer-items ul li .contacts:hover {
+  opacity: 1;
+}
+.footer .container .footer-inner .footer-items ul li .social {
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer .container .footer-inner .footer-items ul li .social .social-item {
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.footer .container .footer-inner .footer-items ul li .social .social-item:hover {
+  opacity: 1;
+}
+.footer .container .footer-inner .footer-items ul li .footer-logo {
+  width: 100px;
+  height: 108px;
 }/*# sourceMappingURL=style.css.map */
