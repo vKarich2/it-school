@@ -239,7 +239,6 @@ body{
 					text-decoration: none;
 
 					.courses-img__inner{
-						color: #222831;
 						height: 100%;
 						display: flex;
 						flex-direction: column;
@@ -247,6 +246,7 @@ body{
 						justify-content: flex-end;
 
 						.course-maintext{
+							color: #222831;
 							font-size: 20px;
 							text-transform: uppercase;
 							letter-spacing: 0.1em;
@@ -254,6 +254,7 @@ body{
 						}
 
 						.course-subtext{
+							color: #222831;
 							font-size: 16px;
 							padding-bottom: 25px;
 						}
@@ -283,27 +284,27 @@ body{
 				}
 
 				#c1{
-					background-image: url(./img/card-1.svg);
+					background-image: url(../img/card-1.svg);
 				}
 
 				#c2{
-					background-image: url(./img/card-2.svg);
+					background-image: url(../img/card-2.svg);
 				}
 
 				#c3{
-					background-image: url(./img/card-3.svg);
+					background-image: url(../img/card-3.svg);
 				}
 
 				#c4{
-					background-image: url(./img/card-4.svg);
+					background-image: url(../img/card-4.svg);
 				}
 
 				#c5{
-					background-image: url(./img/card-5.svg);
+					background-image: url(../img/card-5.svg);
 				}
 
 				#c6{
-					background-image: url(./img/card-6.svg);
+					background-image: url(../img/card-6.svg);
 				}
 			}
 		}
