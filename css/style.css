@@ -262,6 +262,7 @@ body {
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   position: relative;
+  background-color: #EEEEEE;
 }
 .courses .container .courses-inner .courses-grid .course-img .courses-img__inner {
   height: 100%;
@@ -310,6 +311,24 @@ body {
 }
 .courses .container .courses-inner .courses-grid .course-img:hover::after {
   opacity: 0.7;
+}
+.courses .container .courses-inner .courses-grid #c1 {
+  background-image: url(/img/card-1.svg);
+}
+.courses .container .courses-inner .courses-grid #c2 {
+  background-image: url(/img/card-2.svg);
+}
+.courses .container .courses-inner .courses-grid #c3 {
+  background-image: url(/img/card-3.svg);
+}
+.courses .container .courses-inner .courses-grid #c4 {
+  background-image: url(/img/card-4.svg);
+}
+.courses .container .courses-inner .courses-grid #c5 {
+  background-image: url(/img/card-5.svg);
+}
+.courses .container .courses-inner .courses-grid #c6 {
+  background-image: url(/img/card-6.svg);
 }
 
 .final {

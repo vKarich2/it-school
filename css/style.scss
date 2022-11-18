@@ -225,7 +225,7 @@ body{
 				grid-template-columns: repeat(3, 1fr);
 				gap: 50px;
 				margin-top: 100px;
-
+				
 				.course-img{
 					display: flex;
 					flex-direction: column;
@@ -235,6 +235,7 @@ body{
 					border-radius: 10px;
 					transition: 0.2s ease-in-out;
 					position: relative;
+					background-color: #EEEEEE;
 
 					.courses-img__inner{
 						height: 100%;
@@ -278,7 +279,31 @@ body{
 					&:hover::after{
 						opacity: 0.7;
 					}
-				}	
+				}
+				
+				#c1{
+					background-image: url(/img/card-1.svg);
+				}
+
+				#c2{
+					background-image: url(/img/card-2.svg);
+				}
+
+				#c3{
+					background-image: url(/img/card-3.svg);
+				}
+
+				#c4{
+					background-image: url(/img/card-4.svg);
+				}
+
+				#c5{
+					background-image: url(/img/card-5.svg);
+				}
+
+				#c6{
+					background-image: url(/img/card-6.svg);
+				}
 			}
 		}
 	}
