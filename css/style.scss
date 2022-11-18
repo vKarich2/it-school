@@ -236,6 +236,7 @@ body{
 					transition: 0.2s ease-in-out;
 					position: relative;
 					background-color: #EEEEEE;
+					text-decoration: none;
 
 					.courses-img__inner{
 						height: 100%;
@@ -280,7 +281,7 @@ body{
 						opacity: 0.7;
 					}
 				}
-				
+
 				#c1{
 					background-image: url(/img/card-1.svg);
 				}

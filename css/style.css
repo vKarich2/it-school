@@ -263,6 +263,7 @@ body {
   transition: 0.2s ease-in-out;
   position: relative;
   background-color: #EEEEEE;
+  text-decoration: none;
 }
 .courses .container .courses-inner .courses-grid .course-img .courses-img__inner {
   height: 100%;
