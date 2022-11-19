@@ -302,6 +302,7 @@ body {
 }
 .courses .container .courses-inner .courses-grid .course-img::after {
   content: "";
+  z-index: 10;
   display: block;
   width: 100%;
   height: 100%;
@@ -324,13 +325,13 @@ body {
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
   position: absolute;
   top: 0;
   left: 0;
   background-image: url(../img/before-img.svg);
   opacity: 0;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .courses .container .courses-inner .courses-grid .course-img:hover::before {
   opacity: 1;
