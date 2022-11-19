@@ -44,6 +44,10 @@ body {
   height: 130px;
   margin: 30px 0 17px 0;
 }
+.header .container .header-logo img {
+  min-width: 100%;
+  min-height: 100%;
+}
 .header .container .header-logo:hover {
   cursor: pointer;
 }
@@ -307,12 +311,29 @@ body {
   background: -webkit-gradient(linear, left top, right top, color-stop(25.8%, #FD7013), to(#EEF20F));
   background: linear-gradient(90deg, #FD7013 25.8%, #EEF20F 100%);
   opacity: 0;
-  border-radius: 10px;
+  border-radius: inherit;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 .courses .container .courses-inner .courses-grid .course-img:hover::after {
-  opacity: 0.7;
+  opacity: 0.8;
+}
+.courses .container .courses-inner .courses-grid .course-img::before {
+  content: "";
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/before-img.svg);
+  opacity: 0;
+}
+.courses .container .courses-inner .courses-grid .course-img:hover::before {
+  opacity: 1;
 }
 .courses .container .courses-inner .courses-grid #c1 {
   background-image: url(../img/card-1.svg);
