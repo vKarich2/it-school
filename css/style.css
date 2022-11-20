@@ -207,7 +207,6 @@ body {
 .owner .container .owner-inner .owner-down .owner-down__right {
   width: 580px;
   height: 390px;
-  border-radius: 15px;
 }
 
 .courses {
@@ -262,7 +261,6 @@ body {
   width: 433px;
   height: 311px;
   font-weight: 700;
-  border-radius: 10px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   position: relative;
@@ -312,7 +310,6 @@ body {
   background: -webkit-gradient(linear, left top, right top, color-stop(25.8%, #FD7013), to(#EEF20F));
   background: linear-gradient(90deg, #FD7013 25.8%, #EEF20F 100%);
   opacity: 0;
-  border-radius: inherit;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -324,7 +321,6 @@ body {
   z-index: 100;
   width: 100%;
   height: 100%;
-  border-radius: inherit;
   position: absolute;
   top: 0;
   left: 0;
@@ -413,7 +409,6 @@ body {
 }
 .final .container .final-inner .final-inner__down img {
   width: 100%;
-  border-radius: 20px;
   margin-top: 60px;
 }
 .final .container .final-inner .final-inner__down .final-line {
@@ -421,7 +416,6 @@ body {
   height: 1px;
   background-color: #eee;
   margin-top: 100px;
-  border-radius: 15px;
 }
 
 .footer {
