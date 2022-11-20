@@ -5,6 +5,10 @@ $(function () {
       top = $(id).offset().top;
     $("body,html").animate({ scrollTop: top }, 1500);
   });
+
+  setTimeout(function(){
+    $('header,section,footer').addClass('block-visible');
+  }, 200);
   
   $(".main-slider").slick({
     slidesToShow: 3,

@@ -519,4 +519,14 @@ body {
 .footer .container .footer-inner .footer-items ul li .footer-logo {
   width: 100px;
   height: 108px;
+}
+
+.block-hidden {
+  opacity: 0;
+  -webkit-transition: 0.9s opacity ease-in-out;
+  transition: 0.9s opacity ease-in-out;
+}
+
+.block-visible {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

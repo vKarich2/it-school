@@ -469,3 +469,12 @@ body{
 		}
 	}
 }
+
+.block-hidden{
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+
+.block-visible{
+	opacity: 1;
+}
