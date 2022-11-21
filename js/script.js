@@ -1,4 +1,19 @@
 $(function () {
+  const drOpen = document.querySelector('#open');
+  const drClose = document.querySelector('#close');
+
+  drOpen.addEventListener('click', () => {
+    $('#dr').addClass('drawer-active');
+    $("#dr").removeClass("drawer");
+    $("body").addClass("ovf-hdn");
+  })
+
+  drClose.addEventListener('click', () => {
+    $("#dr").addClass("drawer");
+    $("#dr").removeClass("drawer-active");
+    $("body").removeClass("ovf-hdn");
+  })
+
   $("#menu").on("click", "a", function (event) {
     event.preventDefault();
     var id = $(this).attr("href"),
