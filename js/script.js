@@ -49,6 +49,11 @@ $(function () {
         easing: "swing", // по умолчанию «swing»
       }
     );
+
+    $("#dr").addClass("drawer");
+    $("#dr").removeClass("drawer-active");
+    $("body").removeClass("ovf-hdn");
+    
     return false;
   });
 
