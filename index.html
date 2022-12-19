@@ -21,11 +21,11 @@
 				<img class="drawer-logo" src="./img/itschool1.svg" alt="Menu logo">
 				<nav class="drawer-nav">
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">About us</a></li>
-						<li><a href="">Our courses</a></li>
-						<li><a href="">Our students</a></li>
-						<li><a href="">Contacts</a></li>
+						<li><a id="link" href="#home">Home</a></li>
+						<li><a id="link" href="#about">About us</a></li>
+						<li><a id="link" href="#courses">Our courses</a></li>
+						<li><a id="link" href="#students">Our students</a></li>
+						<li><a id="link" href="#contacts">Contacts</a></li>
 					</ul>
 				</nav>
 				<img class="drawer-close" id="close" src="./img/exit.svg" alt="Exit">
@@ -33,7 +33,7 @@
 		</div>
 		
 
-		<header class="header block-hidden">
+		<header class="header block-hidden" id="home">
 			<div class="container">
 				<a class="header-logo"><img src="./img/itschool1.svg" alt="Logo"></a>
 				<div class="burger-menu" id="open">
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="owner block-hidden">
+		<section class="owner block-hidden" id="about">
 			<div class="container">
 				<div class="owner-inner">
 					<div class="owner-up">
@@ -92,7 +92,7 @@
 				<div class="courses-inner">
 					<div class="courses-title">
 						<div class="courses-title__item rectangle"></div>
-						<h3 class="courses-title__item courses-title__text">Our courses</h3>
+						<h3 class="courses-title__item courses-title__text" id="courses">Our courses</h3>
 						<div class="courses-title__item rectangle"></div>
 					</div>
 					<div class="courses-grid">
@@ -140,7 +140,7 @@
 			<div class="container">
 				<div class="final-inner">
 					<div class="final-inner__up">
-						<h3 class="final-up__subtext">Lorem ipsum</h3>
+						<h3 class="final-up__subtext" id="students">Lorem ipsum</h3>
 						<div class="final-up__title">
 							<div class="rectangle"></div>
 							<h3 class="final-up__maintext">Our students</h3>
@@ -153,7 +153,7 @@
 				</div>
 			</div>
 		</section>
-		<footer class="footer block-hidden">
+		<footer class="footer block-hidden" id="contacts">
 			<div class="container">
 				<div class="footer-inner">
 					<div class="footer-items">
@@ -183,6 +183,11 @@
 				</div>
 			</div>
 		</footer>
+		<div class="up-btn">
+			<a href="#home">
+				<img src="./img/arrow-up.svg" alt="arrow up">
+			</a>
+		</div>
 	</div>
 	<script src="./js/jquery-3.6.1.min.js"></script>
 	<script src="./js/slick.min.js"></script>

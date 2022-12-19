@@ -42,7 +42,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: 1000;
-  width: 20%;
+  width: 30%;
   background-color: #eee;
   height: 100%;
   color: #222831;
@@ -601,5 +601,26 @@ body {
   transition: 0.9s opacity ease-in-out;
 }
 .wrapper .block-visible {
+  opacity: 1;
+}
+.wrapper .up-btn {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 100px;
+  right: 80px;
+  background-color: transparent;
+}
+.wrapper .up-btn a {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.wrapper .up-btn a img {
+  opacity: 0.7;
+  -webkit-transition: 0.3s opacity ease-in-out;
+  transition: 0.3s opacity ease-in-out;
+}
+.wrapper .up-btn a img:hover, .wrapper .up-btn a img :focus {
   opacity: 1;
 }/*# sourceMappingURL=style.css.map */

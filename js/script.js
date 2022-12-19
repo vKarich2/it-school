@@ -36,6 +36,32 @@ $(function () {
     centerMode: true,
     centerPadding: "90px",
   });
+
+  $('a[href^="#"').on("click", function () {
+    let href = $(this).attr("href");
+
+    $("html, body").animate(
+      {
+        scrollTop: $(href).offset().top-50,
+      },
+      {
+        duration: 600, // по умолчанию «400»
+        easing: "swing", // по умолчанию «swing»
+      }
+    );
+    return false;
+  });
+
+  let button = $('.up-btn');
+    
+  $(window).on('scroll', () => {
+  if ($(this).scrollTop() >= 500){
+     button.fadeIn();
+  } else {
+     button.fadeOut();
+    }
+  });
+  
 });
 
 //
