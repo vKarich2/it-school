@@ -215,6 +215,7 @@ body {
   opacity: 0.3;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 .wrapper .slick-dots button:hover {
   opacity: 1;
